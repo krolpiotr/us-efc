@@ -2,7 +2,7 @@
 
 # backups.sh
 #
-# Databases backup
+# System config backup
 #
 # v. 1.0.2
 #
