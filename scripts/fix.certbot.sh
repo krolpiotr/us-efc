@@ -8,7 +8,7 @@
 # author: Piotr Krol, simonphoenix.px@gmail.com
 
 # ------------------------------------------------------------------------
-# name: install_java() 
+# name: install_certbot() 
 # desc: Install
 # args: 
 # return: 0
