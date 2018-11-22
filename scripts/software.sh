@@ -2,25 +2,26 @@
 
 # software.sh
 #
-# Plik autoinstalacji pakietow
+# Package autoinstallation file
 
 # ------------------------------------------------------------------------
 # name: install_freeware() 
-# desc: sprawdza czy zainstalowane zostaly pakiety, jesli nie to instaluje
+# desc: check if packages have been installed, if not installs
 # return: 0
-# author: Piotr Krol, piotrkrol.px@gmail.com
+# author : Piotr Krol, simonphoenix.px@gmail.com
+# website: simon-phoenix.se
 # ------------------------------------------------------------------------
   function install_freeware() {  
 
 # tutorial
 #    if dpkg-query -W irssi > /dev/null  2>&1 ; then
-#      echo "irssi :: zainstalowany"; 
+#      echo "irssi :: installed"; 
 #    else 
-#      echo "irssi :: nie zainstalowany"
+#      echo "irssi :: not installed"
 #      echo "instalacja ...."
 #      sudo apt-get install irssi;
 #    fi
-echo '           Sprawdzanie pakietow....'
+echo '           Checking packages....'
     # lista pakietow
     list[0]=apache2
     list[1]=proftpd
@@ -50,30 +51,30 @@ echo '           Sprawdzanie pakietow....'
     list[19]=php-mbstring
     list[20]=php7.0-mbstring
     list[21]=php-gettext
-#    service apache2 restart
+    # service apache2 restart
 
     list[22]=nano
 
 
-# jesli taki plik nie istnieje tam to trzeba zrobic link
-#cd /usr/lib/postfix
-#ln -s postfix-mysql.so.1.0.1 dict_mysql.so
+    # if such a file does not exist there then you have to make a link
+    #cd /usr/lib/postfix
+    #ln -s postfix-mysql.so.1.0.1 dict_mysql.so
 
-#sudo apt-cache search
+    #sudo apt-cache search
 
     for kls in ${list[*]}; do
 
       if dpkg-query -W $kls > /dev/null  2>&1 ; then
-        echo "${kls} :: zainstalowany"; 
+        echo "${kls} :: installed"; 
       else 
-        echo "${kls} :: nie zainstalowany"
+        echo "${kls} :: not installed"
         echo "instalacja ...."
         sudo apt-get install $kls;
       fi
 
     done
 
-echo '           Sprawdzanie pakietow zakonczone.'
+echo '           Package checking completed.'
 
     return 0
   }
