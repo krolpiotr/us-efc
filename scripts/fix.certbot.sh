@@ -4,7 +4,7 @@
 #
 # version 1.0.0
 #
-# Installing Certbot on your Ubuntu Desktop 16.04
+# Installing Certbot on your Ubuntu Server 16.04
 # author: Piotr Krol, simonphoenix.px@gmail.com
 
 # ------------------------------------------------------------------------
