@@ -6,12 +6,13 @@
 #
 # Backup of websites on your Ubuntu Server 16.04
 # author: Piotr Krol, simonphoenix.px@gmail.com
+# website: simon-phoenix.se
 
 # ------------------------------------------------------------------------
 # Configuration
 # directory for websites
-WEBDIR="/home/phoenix/Server"
-BACKUPSDIR="/home/phoenix/Backups/home/Server"
+WEBDIR="/home/simon/Server"
+BACKUPSDIR="/home/simon/Backups/home/Server"
 # ------------------------------------------------------------------------
 # name: backup_website() 
 # desc: Backup website
