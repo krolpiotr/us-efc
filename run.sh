@@ -8,7 +8,8 @@
 # name: start() 
 # desc: Makes everything
 # return: 0
-# author: Piotr Krol, simonphoenix.px@gmail.com
+# author : Piotr Krol, simonphoenix.px@gmail.com
+# website: simon-phoenix.se
 # ------------------------------------------------------------------------
   function start() {  
 
