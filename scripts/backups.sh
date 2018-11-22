@@ -40,7 +40,7 @@
     DIR="${BASH_SOURCE%/*}"
 
 
-#   if [ -d "$DIR" ]; then 
+#    if [ -d "$DIR" ]; then 
 #      if [ -L "$DIR" ]; then
 #      # It is a symlink!
 #      # Symbolic link specific commands go here.
@@ -143,16 +143,6 @@
     days=0
     echo -n "           removing files in $dird that are older than $days days: "
     find "$dird" -mtime +$days -type f -exec echo {} \; -exec rm {} \; | wc -l
-
-
-
-    #if [ -e $OF ]
-    #  then
-      # dzis juz zrobiono backup
-   #   echo "           Backup of $OF - done"
-   # else    
-    #echo '           Ubuntu Final Backup....'
-    #fi
 
     echo ''
     echo '           Cleaning done.'
