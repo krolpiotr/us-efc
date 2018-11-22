@@ -5,7 +5,7 @@
 # version 1.0.2
 #
 # Backup of websites on your Ubuntu Server 16.04
-# author: Piotr Krol, simonphoenix.px@gmail.com
+# author : Piotr Krol, simonphoenix.px@gmail.com
 # website: simon-phoenix.se
 
 # ------------------------------------------------------------------------
