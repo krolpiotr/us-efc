@@ -11,8 +11,8 @@
 # ------------------------------------------------------------------------
 # Configuration
 # directory for websites
-WEBDIR="/home/simon/Server"
-BACKUPSDIR="/home/simon/Backups/home/Server"
+WEBDIR="/home/phoenix/Server"
+BACKUPSDIR="/home/phoenix/Backups/home/Server"
 # ------------------------------------------------------------------------
 # name: backup_website() 
 # desc: Backup website
