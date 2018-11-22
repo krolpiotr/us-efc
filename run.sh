@@ -24,18 +24,12 @@
     . "$DIR/scripts/software.sh"
     echo '           '
     . "$DIR/scripts/backups.sh"
-
-
-
-    "/home/phoenix/efc/scripts/backup.websites.sh"
+    
+    . "$DIR/scripts/backup.websites.sh"
     echo '           '
-    "/home/phoenix/efc/scripts/general.backup.sh"
+    . "$DIR/scripts/scripts/general.backup.sh"
  
     echo '           Done.'
-
-
-
-
 
     return 0
   }
