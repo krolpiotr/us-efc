@@ -22,7 +22,7 @@
 #      sudo apt-get install irssi;
 #    fi
 echo '           Checking packages....'
-    # lista pakietow
+    # list of packages
     list[0]=apache2
     list[1]=proftpd
     list[2]=mysql-server
