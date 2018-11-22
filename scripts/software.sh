@@ -18,7 +18,7 @@
 #      echo "irssi :: installed"; 
 #    else 
 #      echo "irssi :: not installed"
-#      echo "instalacja ...."
+#      echo "installing ...."
 #      sudo apt-get install irssi;
 #    fi
 echo '           Checking packages....'
@@ -68,7 +68,7 @@ echo '           Checking packages....'
         echo "${kls} :: installed"; 
       else 
         echo "${kls} :: not installed"
-        echo "instalacja ...."
+        echo "installing ...."
         sudo apt-get install $kls;
       fi
 
