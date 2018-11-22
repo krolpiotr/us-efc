@@ -100,7 +100,7 @@
 #      mkdir -p "/home/phoenix/Backups/System"
 #    fi
 
-    # tworzy folder tymczasowy dla backupow
+    # creates a temporary folder for backups
     if [ -d "/home/phoenix/Backups/tmp" ]; then
       echo '           Backups/tmp destination exist....'
     else
