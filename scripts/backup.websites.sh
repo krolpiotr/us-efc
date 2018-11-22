@@ -7,7 +7,6 @@
 # Backup of websites on your Ubuntu Server 16.04
 # author : Piotr Krol, simonphoenix.px@gmail.com
 # website: simon-phoenix.se
-
 # ------------------------------------------------------------------------
 # Configuration
 # directory for websites
